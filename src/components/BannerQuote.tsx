@@ -36,7 +36,7 @@ const BannerQuote: React.FC<BannerProps> = ({
           }}
         >
           <div className="quote-container rotate-3 flex items-center flex-col justify-center p-56 max-lg:p-20 ">
-            <h2 className="text-[--white] text-center text-8xl mb-20 mt-20 max-lg:text-[3rem] max-lg:mb-10 max-lg:leading-tight">
+            <h2 className="w-10/12 text-[--white] text-center text-7xl mb-20 mt-20 max-lg:text-[3rem] max-lg:mb-10 max-lg:leading-tight">
               {quoteTranslation}
             </h2>
             <p className="text-[--grey]">{quotesData[0].author}</p>
@@ -49,7 +49,7 @@ const BannerQuote: React.FC<BannerProps> = ({
       <section className="quote-banner relative overflow-x-clip min-[1921px]:px-96">
         <div className="h-[50vh] -rotate-3 flex justify-center items-center scale-110">
           <div className="statement-container rotate-3 flex items-center flex-col justify-center p-56 max-lg:p-20">
-            <h2 className="text-[--black] text-center text-9xl mb-20 mt-20 max-lg:text-[3rem] max-lg:mb-10 max-lg:leading-tight">
+            <h2 className="w-11/12 text-[--black] text-center text-8xl mb-20 mt-20 max-lg:text-[3rem] max-lg:mb-10 max-lg:leading-tight">
               {quoteTranslation}
             </h2>
           </div>

@@ -23,9 +23,9 @@ import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.png";
-import instorMockup from "../../assets/img/instor_mockup.png";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.png";
+import tastyMockup from "../../assets/img/tasty_mockup.svg";
+import instorMockup from "../../assets/img/instor_mockup.svg";
+import silentmoonMockup from "../../assets/img/silentmoon_mockup.svg";
 import profilepicture from "../img/me2.jpg";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -232,24 +232,24 @@ export const skillsDataWeb = [
         icon: mongodbicon,
         color: "#449C45",
       },
-      {
-        title: "Vue.js",
-        hash: "#Vue.js",
-        icon: vuejsicon,
-        color: "#4FC08D",
-      },
-      {
-        title: "Express",
-        hash: "#Express",
-        icon: [expressicon, expressiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "SASS/SCSS",
-        hash: "#SASS/SCSS",
-        icon: sassscssicon,
-        color: "#CC6699",
-      },
+      // {
+      //   title: "Vue.js",
+      //   hash: "#Vue.js",
+      //   icon: vuejsicon,
+      //   color: "#4FC08D",
+      // },
+      // {
+      //   title: "Express",
+      //   hash: "#Express",
+      //   icon: [expressicon, expressiconwhite],
+      //   color: ["#000000", "#FFFFFF"],
+      // },
+      // {
+      //   title: "SASS/SCSS",
+      //   hash: "#SASS/SCSS",
+      //   icon: sassscssicon,
+      //   color: "#CC6699",
+      // },
     ],
   },
 ] as const;
@@ -286,12 +286,12 @@ export const skillsDataCMS = [
         icon: shopifyicon,
         color: "#7AB55C",
       },
-      {
-        title: "Webflow",
-        hash: "#Webflow",
-        icon: webflowicon,
-        color: "#4353FF",
-      },
+      // {
+      //   title: "Webflow",
+      //   hash: "#Webflow",
+      //   icon: webflowicon,
+      //   color: "#4353FF",
+      // },
     ],
   },
 ] as const;
